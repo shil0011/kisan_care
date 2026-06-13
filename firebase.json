@@ -1,0 +1,46 @@
+{
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log"
+      ]
+    }
+  ],
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "kisancare-1f07a",
+          "appId": "1:746048712157:android:f601ae59a9344bf2e09a34",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "kisancare-1f07a",
+          "configurations": {
+            "android": "1:746048712157:android:f601ae59a9344bf2e09a34"
+          }
+        },
+        "lib/config/firebase_options.dart": {
+          "projectId": "kisancare-1f07a",
+          "configurations": {
+            "android": "1:746048712157:android:f601ae59a9344bf2e09a34",
+            "ios": "1:746048712157:ios:665751e946c052e4e09a34",
+            "macos": "1:746048712157:ios:665751e946c052e4e09a34",
+            "web": "1:746048712157:web:d826323c39a2f345e09a34",
+            "windows": "1:746048712157:web:6ccf1c61a6837655e09a34"
+          }
+        }
+      }
+    }
+  }
+}
